@@ -1,6 +1,6 @@
 # Desafio1
 
-Desafio 1 do processo seletivo para o cargo de teste
+Desafio 1 do processo seletivo para o cargo de teste, onde foi proposto realizar uma automação de teste utilizando o Robot Framework.
 
 ### Organização do Projeto ###
 
