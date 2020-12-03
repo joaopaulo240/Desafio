@@ -35,12 +35,12 @@ $ pip install robotframework
 $ pip install –upgrade robotframework-selenium2library
 ```
 * Baixar e configurar chromedriver
- 
-      * No Windows:
-        
+      
         baixar o driver do chromedriver de acordo com a versão do navegador, pois será utilizado o navegador Google Chrome:
 
         https://chromedriver.chromium.org/downloads
+      
+      * No Windows:
 
         Coloque o driver do ChromeDriver dentro de um diretório, verifique se esse diretório escolhido está no path do Windows.
      
