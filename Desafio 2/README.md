@@ -1,77 +1,41 @@
-# Desafio 1
+# Desafio 2
 
-Desafio 1 do processo seletivo para o cargo de teste, onde foi proposto realizar uma automação de teste utilizando o Robot Framework.
+Desafio 2 do processo seletivo para o cargo de teste, onde foi proposto realizar uma automação de teste utilizando o Selenium.
 
-### Organização do Projeto ###
-
-* Resources
-   - Arquivos de Confifurações e keywords utilizados nos testes
-* Tests
-   - Arquivos contendo os teste que serão executados
-
-### Configuração do ROBOT ###
+### Configuração do Selenium IDE ###
 * Pré-Requisitos para utilizar o framework
-    * Python - v.2.7++
-    * Biblioteca Selenium
-    * chromedriver
+    * node(a linguagem de programação Node.js) versão 8 ou 10
+    * npm (o gerenciador de pacotes NodeJS) que normalmente é instalado com node
+    * selenium-side-runner (o executor de linha de comando Selenium IDE)
+    * o driver ChromeDriver, pois usaremos o Chrome como navegador  
 
-- Instalando Python
+- Instalando NodeJS e Npm
 
 ```
 windows:
 
 Baixar o executavel e seguir os passos de instalação
-https://www.python.org/downloads/
+
+<b>https://nodejs.org/en/<b>
 
 Linux:
-$ sudo apt-get install python
-```
-- Instalando o Robot
-```
-$ pip install robotframework
-```
-- Instalando a Biblioteca Selenium
-```
-$ pip install robotframework-selenium2library
-```
-* Baixar e configurar chromedriver
-      
-        baixar o driver do chromedriver de acordo com a versão do navegador, pois será utilizado o navegador Google Chrome:
 
-        https://chromedriver.chromium.org/downloads
-      
-      * No Windows:
+$ sudo apt update
+$ sudo apt install nodejs
+$ sudo apt install npm
 
-        Coloque o driver do ChromeDriver dentro de um diretório, verifique se esse diretório escolhido está no path do Windows.
-     
-      * No Linux:
-        
-        Extrair os arquivos na pasta Downloads:
-        ```
-        $ unzuo chromedriver_linux64.zip
-        $ tar –xvzf geckodriver*
-        ```
-        Tornar os arquivos executáveis:
-        ```
-        $ chmod +x chromedriver
-        $ chmod +x geckodriver
-        ```
-        Mover os arquivos para o diretório /usr/local/share:
-        ```
-        $ sudo mv –f chromedriver /usr/local/share/chromedriver
-        $ sudo mv –f geckodriver /usr/local/share/geckodriver 
-        ```
-        Criar os links simbólicos:
-        * Chrome Driver
-        ```
-        $ sudo ln –s /usr/local/share/chromedriver /usr/local/bin/chromedriver
-        $ sudo ln –s /usr/local/share/chromedriver 
-        ```
-        * Gecko Driver
-        ```
-        $ sudo ln –s /usr/local/share/geckodriver /usr/local/bin/geckodriver
+
+```
+- Instalando a selenium-side-runner
+```
+$ npm install -g selenium-side-runner
+```
+- Instalando o chromedriver
+       ```
+    npm install -g chromedriver
+
         ```
 ### Execução do Teste ###
   - Após concluir os pré-requisitos, entre na pasta raiz do projeto e execute o comando:
-     <b> robot -d ./logs ./tests/Desafio.robot<b>
+     <b> selenium-side-runner --output-directory . "Desafio 2.side"<b>
 
