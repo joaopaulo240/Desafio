@@ -41,7 +41,7 @@ $ npm install -g chromedriver
 
 
 ### Execução do Teste ###
-  - Após concluir os pré-requisitos, entre na pasta raiz do projeto e execute o comando:
+  - Após concluir os pré-requisitos, entre na pasta raiz do projeto e execute o comando pelo terminal:
   ```
     selenium-side-runner --output-directory . "Desafio 2.side"
   ```
