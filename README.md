@@ -7,7 +7,7 @@ Desafio 1 do processo seletivo para o cargo de teste, onde foi proposto realizar
 * Resources
    - Arquivos de Confifurações e keywords utilizados nos testes
 * Tests
-   - Arquivos contendo o caso de teste
+   - Arquivos contendo os teste que serão executados
 
 ### Configuração do ROBOT ###
 * Pré-Requisitos para utilizar o framework
