@@ -50,6 +50,6 @@ Em version coleque a versão do seu navegador Google Chrome (Ex: @84, @87 etc)
 ### Execução do Teste ###
   - Após concluir os pré-requisitos, entre na pasta raiz do projeto e execute o comando pelo terminal:
   ```
-    selenium-side-runner --output-directory . "Desafio 2.side"
+    selenium-side-runner . "Desafio 2.side"
   ```
 
