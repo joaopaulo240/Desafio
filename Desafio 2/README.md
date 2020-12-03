@@ -26,15 +26,20 @@ $ sudo apt install npm
 
 
 ```
+
 - Instalando a selenium-side-runner
+
 ```
 $ npm install -g selenium-side-runner
 ```
-- Instalando o chromedriver
-       ```
-    npm install -g chromedriver
 
-        ```
+- Instalando o chromedriver
+
+```
+$ npm install -g chromedriver
+```
+
+
 ### Execução do Teste ###
   - Após concluir os pré-requisitos, entre na pasta raiz do projeto e execute o comando:
      <b> selenium-side-runner --output-directory . "Desafio 2.side"<b>
