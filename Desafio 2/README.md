@@ -4,11 +4,16 @@ Desafio 2 do processo seletivo para o cargo de teste, onde foi proposto realizar
 
 ### Configuração do Selenium IDE ###
 * Pré-Requisitos para utilizar o framework
+    * Extenção Selenium IDE para o Chrome
     * node(a linguagem de programação Node.js) versão 8 ou 10
     * npm (o gerenciador de pacotes NodeJS) que normalmente é instalado com node
-    * selenium-side-runner (o executor de linha de comando Selenium IDE)
+    * selenium-side-runner (o executor de linha de comando Selenium IDE) 
     * o driver ChromeDriver, pois usaremos o Chrome como navegador  
 
+- Istalando a extenção selenium IDE
+   ```
+   Baixar e instalar pelo link:  https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd
+   ```
 - Instalando NodeJS e Npm
 
 ```
