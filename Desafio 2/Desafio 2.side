@@ -1,0 +1,110 @@
+{
+  "id": "4622d7a3-c421-4c73-9e0d-1b9d5e2a6bf2",
+  "version": "2.0",
+  "name": "Desafio 2",
+  "url": "https://www.msn.com",
+  "tests": [{
+    "id": "ecf7523b-f33e-4e33-897f-044003b6bd00",
+    "name": "teste 1",
+    "commands": [{
+      "id": "b0e7e846-e6f9-4103-b827-abf35ce9a3f7",
+      "comment": "",
+      "command": "open",
+      "target": "/pt-br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e0a3a28-ae36-47ee-b136-38c10c6d9bf5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52f2fdfb-861b-4da8-8381-cc39d70e68d9",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.pos2 .title",
+      "targets": [
+        ["css=.pos3 .caption", "css:finder"],
+        ["xpath=//main[@id='main']/div[6]/ul/li[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[6]/ul/li[4]/a/div", "xpath:position"]
+      ],
+      "value": "textoModal"
+    }, {
+      "id": "ff8e66f0-5273-4b96-89c0-0c735a391a87",
+      "comment": "",
+      "command": "executeScript",
+      "target": "var str = ${textoModal}; return(str.substring(0,7)); ",
+      "targets": [],
+      "value": "primeiraPalavra"
+    }, {
+      "id": "4f4896ce-38ee-4714-ba50-a539f594dda3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pos2 .title",
+      "targets": [
+        ["css=.pos3 .title", "css:finder"],
+        ["xpath=//main[@id='main']/div[5]/ul/li[4]/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[5]/ul/li[4]/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'EUA correm para obter vacina contra Covid-19, mas Reino Unido sai na frente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbbc9355-7d10-4db8-ad58-bde7192680d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='precontent']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Eduardo Paes anuncia nova secretaria de Ação Comunitária e indica subprefeitos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc691ec2-4754-4aba-9cc5-b99288f8c75c",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='precontent']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Eduardo Paes anuncia nova secretaria de Ação Comunitária e indica subprefeitos')]", "xpath:innerText"]
+      ],
+      "value": "textoTitulo"
+    }, {
+      "id": "583fcc43-4dcc-488d-91eb-d3bfb0667caa",
+      "comment": "",
+      "command": "executeScript",
+      "target": "var str = ${textoTitulo}; return(str.substring(0,7)); ",
+      "targets": [],
+      "value": "segundaPalavra"
+    }, {
+      "id": "17ae50e6-5972-428e-b2c9-1df0d842a7c8",
+      "comment": "",
+      "command": "assert",
+      "target": "primeiraPalavra",
+      "targets": [],
+      "value": "${segundaPalavra}"
+    }, {
+      "id": "051c0c11-e089-4acb-8269-bd5777ecfaeb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8f19bd5c-2f59-4b30-8e0e-d6daa2a9b48a",
+    "name": "SuiteDesafio2",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ecf7523b-f33e-4e33-897f-044003b6bd00"]
+  }],
+  "urls": ["https://www.msn.com/"],
+  "plugins": []
+}
