@@ -32,7 +32,7 @@ $ pip install robotframework
 ```
 - Instalando a Biblioteca Selenium
 ```
-$ pip install –upgrade robotframework-selenium2library
+$ pip install robotframework-selenium2library
 ```
 * Baixar e configurar chromedriver
       
