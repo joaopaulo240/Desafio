@@ -21,7 +21,7 @@ windows:
 
 Baixar o executavel e seguir os passos de instalação
 
-<b>https://nodejs.org/en/<b>
+https://nodejs.org/en/
 
 Linux:
 
@@ -41,7 +41,9 @@ $ npm install -g selenium-side-runner
 - Instalando o chromedriver
 
 ```
-$ npm install -g chromedriver
+$ npm install -g chromedriver@version
+
+Em version coleque a versão do seu navegador Google Chrome (Ex: @84, @87 etc)
 ```
 
 
