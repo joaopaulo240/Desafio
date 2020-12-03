@@ -5,7 +5,9 @@ Desafio 1 do processo seletivo para o cargo de teste, onde foi proposto realizar
 ### Organização do Projeto ###
 
 * Resources
-* Scripts
+   - Arquivos de Confifurações e keywords utilizados nos testes
+* Tests
+   - Arquivos contendo o caso de teste
 
 ### Configuração do ROBOT ###
 * Pré-Requisitos para utilizar o framework
@@ -70,5 +72,6 @@ $ pip install –upgrade robotframework-selenium2library
         $ sudo ln –s /usr/local/share/geckodriver /usr/local/bin/geckodriver
         ```
 ### Execução do Teste ###
-  - Após concluir os pré-requisitos, entre na pasta raiz do projeto e execute o arquivo <b>start.bat<b>
+  - Após concluir os pré-requisitos, entre na pasta raiz do projeto e execute o comando:
+     <b> robot -d ./logs ./tests/Desafio.robot<b>
 
