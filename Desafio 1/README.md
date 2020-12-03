@@ -5,7 +5,7 @@ Desafio 1 do processo seletivo para o cargo de teste, onde foi proposto realizar
 ### Organização do Projeto ###
 
 * Resources
-   - Arquivos de Confifurações e keywords utilizados nos testes
+   - Arquivos de Configurações e keywords utilizados nos testes
 * Tests
    - Arquivos contendo os teste que serão executados
 
