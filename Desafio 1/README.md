@@ -72,6 +72,8 @@ $ pip install robotframework-selenium2library
         $ sudo ln –s /usr/local/share/geckodriver /usr/local/bin/geckodriver
         ```
 ### Execução do Teste ###
-  - Após concluir os pré-requisitos, entre na pasta raiz do projeto e execute o comando:
-     <b> robot -d ./logs ./tests/Desafio.robot<b>
+  - Após concluir os pré-requisitos, entre na pasta raiz do projeto e execute o comando no terminal:
+   ```
+      robot -d ./logs ./tests/Desafio.robot
+   ```
 
