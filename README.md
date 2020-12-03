@@ -1,4 +1,4 @@
-# Desafio1
+# Desafio 1
 
 Desafio 1 do processo seletivo para o cargo de teste, onde foi proposto realizar uma automação de teste utilizando o Robot Framework.
 
@@ -11,7 +11,7 @@ Desafio 1 do processo seletivo para o cargo de teste, onde foi proposto realizar
 * Pré-Requisitos para utilizar o framework
     * Python - v.2.7++
     * Biblioteca Selenium
-    * Gecko Driver
+    * chromedriver
 
 - Instalando Python
 
